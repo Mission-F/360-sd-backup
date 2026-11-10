@@ -5,88 +5,88 @@
 <h1 align="center">360 SD Backup</h1>
 
 <p align="center">
-  <b>Quella piccola scheda contiene mesi del tuo lavoro.<br>Mettila al sicuro prima che sia lei a ricordartelo.</b>
+  <b>That tiny card holds months of your work.<br>Protect it before it reminds you why you should have.</b>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mission-F/360-sd-backup/releases/latest/download/360-SD-Backup.dmg"><b>Scarica gratis per Mac</b></a>
-  &nbsp;·&nbsp; macOS 12 o successivo &nbsp;·&nbsp; meno di 1 MB
+  <a href="https://github.com/Mission-F/360-sd-backup/releases/latest/download/360-SD-Backup.dmg"><b>Download free for Mac</b></a>
+  &nbsp;·&nbsp; macOS 12 or later &nbsp;·&nbsp; under 1 MB
 </p>
 
 <p align="center">
-  <img src="assets/pronta.png" width="440" alt="La schermata principale: scheda trovata, un grande tasto Crea backup">
+  <img src="assets/ready.png" width="440" alt="The main screen: card found, one big Create backup button">
 </p>
 
 ---
 
-Sai già come va a finire.
+You already know how this ends.
 
-Il tuo Raspberry Pi lavora per mesi senza un lamento. Sta lì, in un angolo, e fa il suo dovere. Poi un giorno salta la corrente, la micro SD si arrende, e lui non si riaccende più.
+Your Raspberry Pi runs for months without a single complaint. It sits in a corner and does its job. Then one day the power flickers, the micro SD gives up, and it never boots again.
 
-E con la scheda se ne vanno il sistema, le configurazioni sistemate alle due di notte, quel comando trovato dopo ore di tentativi che non ti sei mai segnato.
+And with that card go the system, the settings you fixed at two in the morning, and that one command you found after hours of trying and never wrote down.
 
-**360 SD Backup nasce per quel giorno.** Lo abbiamo costruito perché serviva a noi: un modo semplice per sapere che, qualunque cosa succeda a quella scheda, il lavoro che c'è sopra non è perso.
+**360 SD Backup was built for that day.** We made it because we needed it ourselves: a simple way to know that whatever happens to that card, the work on it is not lost.
 
-Inserisci la scheda. Premi un tasto. Fine.
+Insert the card. Press one button. Done.
 
-## Un backup che non si può ripristinare non è un backup
+## A backup you can't restore is not a backup
 
-Copiare una scheda è facile. Sapere che la copia funziona è un'altra storia. Per questo il programma non si fida di se stesso:
+Copying a card is easy. Knowing the copy works is another story. That is why this program doesn't trust itself:
 
-1. **Copia** tutta la scheda, settore per settore.
-2. **Riapre il file** appena creato e lo controlla da capo.
-3. **Rilegge la scheda una seconda volta** e confronta le impronte digitali.
+1. It **copies** the entire card, sector by sector.
+2. It **reopens the file** it just created and checks it from scratch.
+3. It **reads the card a second time** and compares the fingerprints.
 
-Il file prende il nome definitivo solo se tutto coincide. Se qualcosa non torna, te lo dice. Niente mezzi backup, niente sorprese il giorno in cui ne hai bisogno.
+The file only gets its final name if everything matches. If something is off, it tells you. No half-finished backups, no surprises on the day you need one.
 
-Anche il ripristino è prudente: controlla **tutto** il file prima di toccare la scheda e, a fine scrittura, rilegge quanto ha scritto.
+Restoring is just as careful: it checks the **entire** file before touching the card, then reads back everything it wrote.
 
 <p align="center">
-  <img src="assets/avanzamento.png" width="400" alt="Due anelli di avanzamento: il totale e il passo in corso">
-  <img src="assets/fatto.png" width="400" alt="Backup pronto e controllato">
+  <img src="assets/progress.png" width="400" alt="Two progress rings: overall progress and the current step">
+  <img src="assets/done.png" width="400" alt="Backup ready and verified">
 </p>
 
-## Cosa puoi fare
+## What you can do
 
-- **Creare un backup** completo in un unico file `.zip`, compresso e pronto da archiviare.
-- **Ripristinarlo** su un'altra scheda e rimettere in piedi un Raspberry Pi identico.
-- **Formattare una scheda** e farla tornare normale, con tutto lo spazio disponibile: anche quelle che il Mac non riesce più a usare dopo essere state nel Raspberry.
-- **Lasciarlo lavorare** in background: l'avanzamento resta visibile nella barra in alto.
+- **Create a full backup** in a single `.zip` file, compressed and ready to archive.
+- **Restore it** to another card and bring back an identical Raspberry Pi.
+- **Format a card** and make it normal again, with all its space available, including cards your Mac can no longer use after living in a Raspberry Pi.
+- **Let it work in the background**, with progress always visible in the menu bar.
 
-Il programma ti mostra solo schede e dischi rimovibili, così il disco del tuo Mac non compare mai. Prima di cancellare una scheda, te lo chiede.
+The program only shows removable cards and disks, so your Mac's own disk never appears. Before erasing a card, it asks you first.
 
-## Gratis, davvero
+## Free. Really.
 
-Niente account. Niente abbonamenti. Niente pubblicità. Niente dati che escono dal tuo Mac.
+No account. No subscription. No ads. No data leaving your Mac.
 
-## Installazione
+The interface follows your Mac: Italian if your system is in Italian, English otherwise.
 
-1. [Scarica il file DMG](https://github.com/Mission-F/360-sd-backup/releases/latest/download/360-SD-Backup.dmg) e aprilo.
-2. Trascina **360 SD Backup** sulla cartella **Applicazioni**.
-3. Alla prima apertura macOS lo bloccherà, perché il programma non ha la firma a pagamento di Apple. Vai in **Impostazioni di Sistema > Privacy e sicurezza** e premi **Apri comunque**. Basta una volta.
+## Installation
 
-Per leggere e scrivere la scheda, macOS ti chiederà la password di un amministratore. Il programma non la vede e non la conserva: la gestisce macOS.
+1. [Download the DMG](https://github.com/Mission-F/360-sd-backup/releases/latest/download/360-SD-Backup.dmg) and open it.
+2. Drag **360 SD Backup** onto the **Applications** folder.
+3. The first time you open it, macOS will block it, because the program doesn't have Apple's paid signature. Go to **System Settings > Privacy & Security** and click **Open Anyway**. You only need to do this once.
 
-## Prima di iniziare
+To read and write the card, macOS will ask for an administrator password. The program never sees or stores it: macOS handles it.
 
-- Spegni il Raspberry Pi in modo pulito con `sudo shutdown -h now`, poi togli la scheda.
-- Se il Mac dice che il disco non è leggibile, scegli **Ignora**.
-- Per il ripristino serve una scheda grande almeno quanto l'originale.
-- Un backup è una copia completa: contiene anche password e chiavi. Trattalo con la stessa cura della scheda.
-- Non tenere accesi insieme il Raspberry originale e il suo clone sulla stessa rete.
+## Before you start
 
-## A che punto siamo
+- Shut down the Raspberry Pi cleanly with `sudo shutdown -h now`, then remove the card.
+- If your Mac says the disk is not readable, choose **Ignore**.
+- To restore, you need a card at least as large as the original.
+- A backup is a complete copy, including passwords and keys. Treat it with the same care as the card.
+- Do not run the original Raspberry Pi and its clone on the same network at the same time.
 
-Questa è la prima versione e preferiamo dirti le cose come stanno. Il backup è stato provato su una scheda vera. Il ripristino e la formattazione hanno superato i nostri collaudi su schede virtuali, compresi file danneggiati e schede guaste simulate, ma non ancora un giro completo su un Raspberry Pi vero. La versione per Mac Apple Silicon è inclusa, ma è stata provata solo su Intel.
+## Where things stand
 
-Se i tuoi dati contano, fai una prova su una scheda di ricambio prima di averne bisogno. È il consiglio migliore per qualunque backup.
+This is an early version and we would rather tell you exactly how things are. Backup has been tried on a real card. Restore and format have passed our tests on virtual cards, including damaged files and simulated faulty cards, but not yet a full round trip on a real Raspberry Pi. The Apple Silicon build is included, but it has only been run on Intel.
 
-L'interfaccia è in italiano.
+If your data matters, try it on a spare card before you need it. That is the best advice for any backup.
 
-## Licenza
+## License
 
-Il programma è **gratuito ma non open source**: puoi scaricarlo e usarlo liberamente, anche per lavoro, alle condizioni del file [LICENSE](LICENSE). Viene fornito così com'è, senza garanzie.
+This program is **free but not open source**: you can download it and use it freely, including for work, under the terms in the [LICENSE](LICENSE) file. It is provided as is, without warranty.
 
-© 2026 360 Management System. Tutti i diritti riservati. Per qualsiasi richiesta: supporto@360msystem.it
+© 2026 360 Management System. All rights reserved. For any request: supporto@360msystem.it
 
-Apple, Mac e macOS sono marchi di Apple Inc. Raspberry Pi è un marchio di Raspberry Pi Ltd. Questo progetto non è affiliato né approvato da queste società.
+Apple, Mac and macOS are trademarks of Apple Inc. Raspberry Pi is a trademark of Raspberry Pi Ltd. This project is not affiliated with or endorsed by these companies.
