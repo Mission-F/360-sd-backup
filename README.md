@@ -94,7 +94,7 @@ To read and write the card, macOS will ask for an administrator password. The pr
 
 ## Where things stand
 
-We would rather tell you exactly how things are. Backup and restore have been confirmed end to end on a real Raspberry Pi from an Intel Mac: the restored card booted and everything worked. Format has passed our tests on virtual cards, but has not yet been confirmed on a real one. The Apple Silicon build is included, but so far it has only been run on Intel.
+We would rather tell you exactly how things are. Backup, restore and format have all been confirmed on real cards from an Intel Mac: the restored card booted a real Raspberry Pi and everything worked. The Apple Silicon build is included, but so far it has only been run on Intel.
 
 If your data matters, try it on a spare card before you need it. That is the best advice for any backup.
 
