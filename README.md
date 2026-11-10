@@ -65,7 +65,22 @@ The interface follows your Mac: Italian if your system is in Italian, English ot
 
 1. [Download the DMG](https://github.com/Mission-F/360-sd-backup/releases/latest/download/360-SD-Backup.dmg) and open it.
 2. Drag **360 SD Backup** onto the **Applications** folder.
-3. The first time you open it, macOS will block it, because the program doesn't have Apple's paid signature. Go to **System Settings > Privacy & Security** and click **Open Anyway**. You only need to do this once.
+3. The first time you open it, macOS will block it. See below: it takes less than a minute, and you only do it once.
+
+### If macOS says it can't be opened or may contain malware
+
+Don't worry: that message appears because the program doesn't have Apple's paid signature, not because a virus was found. Only continue if you downloaded it from this page or from [360msystem.it](https://360msystem.it).
+
+**macOS 14 or earlier.** In Applications, hold **Control**, click the program's icon, choose **Open**, then confirm with **Open**.
+
+**macOS 15 or later** (Control-click no longer works):
+
+1. Try to open the program and close the message.
+2. Go to **System Settings > Privacy & Security**.
+3. Scroll down to **Security** and click **Open Anyway**.
+4. Confirm with your Mac password.
+
+The same instructions are in the `Leggimi - Read me.txt` file inside the DMG.
 
 To read and write the card, macOS will ask for an administrator password. The program never sees or stores it: macOS handles it.
 
