@@ -12,7 +12,7 @@
   <a href="https://github.com/Mission-F/360-sd-backup/releases/latest/download/360-SD-Backup.dmg"><b>Download for Mac</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Mission-F/360-sd-backup/releases/latest/download/360-SD-Backup.exe"><b>Download for Windows</b></a>
-  <br>Free &nbsp;·&nbsp; macOS 12 or later &nbsp;·&nbsp; Windows 10 and 11 (64-bit) &nbsp;·&nbsp; about 1 MB
+  <br>Free for personal use &nbsp;·&nbsp; macOS 12 or later &nbsp;·&nbsp; Windows 10 and 11 (64-bit) &nbsp;·&nbsp; about 1 MB
 </p>
 
 <p align="center">
@@ -120,7 +120,7 @@ If your data matters, try it on a spare card before you need it. That is the bes
 
 ## License
 
-This program is **free but not open source**: you can download it and use it freely, including for work, under the terms in the [LICENSE](LICENSE) file. It is provided as is, without warranty.
+This program is **free for personal, non-commercial use** and is not open source. Commercial use, by a company or for your professional work, requires a written agreement with 360 Management System: write to supporto@360msystem.it. The full terms are in the [LICENSE](LICENSE) file. The program is provided as is, without warranty.
 
 © 2026 360 Management System. All rights reserved. For any request: supporto@360msystem.it
 
